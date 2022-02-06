@@ -23,8 +23,8 @@ var header;
 // }
 // console.log(a);
 
-if (randomNumber1 > randomNumber2) header = "P1 wins it all";
-else if (randomNumber1 < randomNumber2) header = "P2 wins it all";
-else header = "Draw";
+if (randomNumber1 > randomNumber2) header = "Make it asap";
+else if (randomNumber1 < randomNumber2) header = "Bad idea";
+else header = "Not shure, refresh me";
 document.querySelector("h1").textContent = header;
 console.log(header);
