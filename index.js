@@ -27,6 +27,6 @@ var header;
 // changing h1 by IF
 if (randomNumber1 > randomNumber2) header = "Make it!";
 else if (randomNumber1 < randomNumber2) header = "Bad idea.";
-else header = "Not shure, refresh me";
+else header = "Not shure, refresh me..";
 document.querySelector("h1").textContent = header;
 
